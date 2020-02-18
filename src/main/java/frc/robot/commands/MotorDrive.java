@@ -17,7 +17,7 @@ public class MotorDrive extends CommandBase {
    */
   public MotorDrive() {
     // Use addRequirements() here to declare subsystem dependencies.
-    addRequirements(new ButtonMotor());
+    addRequirements(Robot.m_mot);
   }
 
   // Called when the command is initially scheduled.
